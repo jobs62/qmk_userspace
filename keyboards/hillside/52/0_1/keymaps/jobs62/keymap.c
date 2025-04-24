@@ -33,8 +33,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_AZERTY] = LAYOUT(
      KC_ESC,  FR_A,    FR_Z,    FR_E,    FR_R,    FR_T,                                           FR_Y,    FR_U,    FR_I,    FR_O,    FR_P,    KC_BSPC,
      KC_TAB,  FR_Q,    FR_S,    FR_D,    FR_F,    FR_G,                                           FR_H,    FR_J,    FR_K,    FR_L,    FR_M,    KC_QUOT,
-     KC_LSFT, FR_W,    FR_X,    FR_C,    FR_V,    FR_B,   KC_LBRC,                       KC_RBRC, KC_N,    KC_SCLN, KC_COMM, KC_DOT,  KC_UP,   KC_EQL,
-     KC_LCTL, KC_BSLS, KC_LALT,          _______, LY_NAV, OSM_SFT, KC_ENT,      LY_SYM , KC_SPC , KC_LALT, KC_RGUI,          KC_LEFT, KC_DOWN, KC_RGHT
+     KC_LSFT, FR_W,    FR_X,    FR_C,    FR_V,    FR_B,   KC_LBRC,                       KC_RBRC, FR_N,    KC_SCLN, KC_COMM, KC_DOT,  KC_UP,   KC_EQL,
+     KC_LCTL, KC_BSLS, KC_LALT,          _______, LY_NAV, OSM_SFT, KC_ENT,      KC_SPC , LY_ADJ,  KC_LALT, KC_RGUI,          KC_LEFT, KC_DOWN, KC_RGHT
     ),
     [_NAV] = LAYOUT(
      COPY   , KC_1   , KC_2   , KC_3   , KC_4   , KC_5   ,                                        KC_6   , KC_7   , KC_8   , KC_9   , KC_0   , _______,
