@@ -5,7 +5,7 @@
 
 enum layers {
     _AZERTY = 0,
-    _NAV
+    _NAV,
     _NUM,
     _SYMBOL,
 };
@@ -15,8 +15,6 @@ enum layers {
 #define LY_NUM MO(_NUM)
 #define LY_SYM MO(_SYMBOL)
 #define RY_NAV MO(_NAV)
-#define RY_SYM MO(_)
-#define ALT_GR OSM(MOD_RALT)
 
 //GASC
 #define MKC_Q MT(MOD_LGUI, KC_Q)
@@ -46,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_NUM] = LAYOUT(
      xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, KC_PPLS, KC_PAST,                                        xxxxxxx, KC_P7  , KC_P8  , KC_P9  , xxxxxxx, xxxxxxx,
      xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, KC_PMNS, KC_PSLS,                                        KC_P0  , KC_P4  , KC_P5  , KC_P6  , KC_PEQL, xxxxxxx,
-     xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx,                      xxxxxxx, xxxxxxx, KC_P1  , KC_P2  , KC_P3  , KC_PENT, xxxxxxx,
+     xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx,                      xxxxxxx, xxxxxxx, KC_P1  , KC_P2  , KC_P3  , KC_PENT, xxxxxxx,
      xxxxxxx, xxxxxxx, xxxxxxx,          _______, _______, _______, _______,    _______, _______, _______, _______,          xxxxxxx, xxxxxxx, xxxxxxx
     ),
     [_SYMBOL] = LAYOUT(
