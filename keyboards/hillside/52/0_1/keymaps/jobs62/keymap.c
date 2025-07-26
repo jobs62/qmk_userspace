@@ -41,19 +41,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      xxxxxxx, xxxxxxx, KC_F7  , KC_F8  , KC_F9  , KC_VOLU,                                        KC_F10 , KC_F11 , KC_F12 , xxxxxxx, xxxxxxx, KC_PGUP,
      xxxxxxx, xxxxxxx, KC_F4  , KC_F5  , KC_F6  , KC_VOLD,                                        KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, xxxxxxx, KC_PGDN,
      xxxxxxx, xxxxxxx, KC_F1  , KC_F2  , KC_F3  , xxxxxxx, xxxxxxx,                      xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx,
-     xxxxxxx, xxxxxxx, xxxxxxx,          _______, _______, _______, _______,    _______, _______, _______, _______,          xxxxxxx, xxxxxxx, KC_NO
+     xxxxxxx, xxxxxxx, xxxxxxx,          _______, _______, _______, _______,    _______, _______, _______, _______,          xxxxxxx, xxxxxxx, xxxxxxx
     ),
     [_NUM] = LAYOUT(
      xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, KC_PPLS, KC_PAST,                                        xxxxxxx, KC_P7  , KC_P8  , KC_P9  , xxxxxxx, xxxxxxx,
      xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, KC_PMNS, KC_PSLS,                                        KC_P0  , KC_P4  , KC_P5  , KC_P6  , KC_PEQL, xxxxxxx,
      xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx, xxxxxxx,                      xxxxxxx, xxxxxxx, KC_P1  , KC_P2  , KC_P3  , KC_PENT, xxxxxxx,
-     xxxxxxx, xxxxxxx, xxxxxxx,          _______, _______, _______, _______,    _______, _______, _______, _______,          xxxxxxx, xxxxxxx, KC_NO
+     xxxxxxx, xxxxxxx, xxxxxxx,          _______, _______, _______, _______,    _______, _______, _______, _______,          xxxxxxx, xxxxxxx, xxxxxxx
     ),
     [_SYMBOL] = LAYOUT(
      xxxxxxx, KC_AT  , KC_HASH, KC_DLR , KC_PERC, KC_CIRC,                                        KC_AMPR, KC_ASTR, KC_LBRC, KC_RBRC, KC_UNDS, xxxxxxx,
      xxxxxxx, KC_PLUS, KC_LCBR, KC_RCBR, KC_COLN, KC_DQUO,                                        KC_LT  , KC_GT  , KC_QUES, KC_QUOT, xxxxxxx, xxxxxxx,
      xxxxxxx, KC_EQL , KC_EXLM, KC_PIPE, KC_MINS, KC_NUHS, KC_LPRN,                      KC_RPRN, KC_TILD, KC_COMM, KC_DOT , KC_SLSH, xxxxxxx, xxxxxxx,
-     xxxxxxx, xxxxxxx, xxxxxxx,          _______, _______, _______, _______,    _______, _______, _______, _______,          xxxxxxx, xxxxxxx, xxxxxxx
+     xxxxxxx, xxxxxxx, xxxxxxx,          _______, _______, _______, _______,    _______, _______, KC_GRV , _______,          xxxxxxx, xxxxxxx, xxxxxxx
     ),
 };
 
